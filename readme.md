@@ -2,6 +2,8 @@
 
 ## Else, add all raw informations that could be ellabrated / referenced for our faster project development to primer101.md file.
 
+## **things below the border will be deleted after final merge, until it is used as todos, donts or checklist for everyone**
+
 ---
 
 # 1. Project Abstract / Intro
