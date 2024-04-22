@@ -23,3 +23,8 @@ _*example end*_
 ---
 
 1. if any of you get messed up looking for dependencies for someone's ros package use - `colcon graph`
+
+2. The turtlebot4 params,
+
+- the cmd to connect - `ssh ubuntu@192.168.0.19`
+- the create3 webserver - `192.168.0.19:8080`
