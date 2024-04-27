@@ -18,6 +18,6 @@ setup(
     license="MIT License",
     tests_require=["pytest"],
     entry_points={
-        "console_scripts": [],
+        "console_scripts": ['parse_lidar = parse_lidar:main'],
     },
 )

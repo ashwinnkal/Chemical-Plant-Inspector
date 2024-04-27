@@ -1,0 +1,9 @@
+source;share/Perception/hook/pythonpath.ps1
+source;share/Perception/hook/pythonpath.dsv
+source;share/Perception/hook/pythonpath.sh
+source;share/Perception/hook/ament_prefix_path.ps1
+source;share/Perception/hook/ament_prefix_path.dsv
+source;share/Perception/hook/ament_prefix_path.sh
+source;../../build/Perception/share/Perception/hook/pythonpath_develop.ps1
+source;../../build/Perception/share/Perception/hook/pythonpath_develop.dsv
+source;../../build/Perception/share/Perception/hook/pythonpath_develop.sh
