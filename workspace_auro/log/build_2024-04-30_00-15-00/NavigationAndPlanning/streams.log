@@ -1,0 +1,20 @@
+[0.819s] Invoking command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/NavigationAndPlanning': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/NavigationAndPlanning build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/install.log --single-version-externally-managed install_data
+[0.977s] running egg_info
+[0.977s] writing ../../build/NavigationAndPlanning/NavigationAndPlanning.egg-info/PKG-INFO
+[0.977s] writing dependency_links to ../../build/NavigationAndPlanning/NavigationAndPlanning.egg-info/dependency_links.txt
+[0.977s] writing entry points to ../../build/NavigationAndPlanning/NavigationAndPlanning.egg-info/entry_points.txt
+[0.977s] writing requirements to ../../build/NavigationAndPlanning/NavigationAndPlanning.egg-info/requires.txt
+[0.977s] writing top-level names to ../../build/NavigationAndPlanning/NavigationAndPlanning.egg-info/top_level.txt
+[0.979s] reading manifest file '../../build/NavigationAndPlanning/NavigationAndPlanning.egg-info/SOURCES.txt'
+[0.979s] writing manifest file '../../build/NavigationAndPlanning/NavigationAndPlanning.egg-info/SOURCES.txt'
+[0.979s] running build
+[0.979s] running build_py
+[0.979s] running install
+[0.979s] running install_lib
+[0.980s] running install_data
+[0.980s] running install_egg_info
+[0.981s] removing '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages/NavigationAndPlanning-0.0.0-py3.10.egg-info' (and everything under it)
+[0.982s] Copying ../../build/NavigationAndPlanning/NavigationAndPlanning.egg-info to /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages/NavigationAndPlanning-0.0.0-py3.10.egg-info
+[0.982s] running install_scripts
+[0.997s] writing list of installed files to '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/install.log'
+[1.020s] Invoked command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/NavigationAndPlanning' returned '0': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/NavigationAndPlanning build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/install.log --single-version-externally-managed install_data

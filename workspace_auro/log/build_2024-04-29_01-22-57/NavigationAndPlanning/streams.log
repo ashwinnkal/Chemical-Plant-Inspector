@@ -1,0 +1,23 @@
+[0.876s] Invoking command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build --no-deps symlink_data
+[1.066s] running develop
+[1.169s] running egg_info
+[1.170s] creating NavigationAndPlanning.egg-info
+[1.170s] writing NavigationAndPlanning.egg-info/PKG-INFO
+[1.170s] writing dependency_links to NavigationAndPlanning.egg-info/dependency_links.txt
+[1.170s] writing entry points to NavigationAndPlanning.egg-info/entry_points.txt
+[1.170s] writing requirements to NavigationAndPlanning.egg-info/requires.txt
+[1.170s] writing top-level names to NavigationAndPlanning.egg-info/top_level.txt
+[1.171s] writing manifest file 'NavigationAndPlanning.egg-info/SOURCES.txt'
+[1.172s] reading manifest file 'NavigationAndPlanning.egg-info/SOURCES.txt'
+[1.173s] writing manifest file 'NavigationAndPlanning.egg-info/SOURCES.txt'
+[1.174s] running build_ext
+[1.174s] Creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages/NavigationAndPlanning.egg-link (link to .)
+[1.175s] 
+[1.175s] Installed /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning
+[1.175s] running symlink_data
+[1.175s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/ament_index
+[1.175s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/ament_index/resource_index
+[1.175s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/ament_index/resource_index/packages
+[1.175s] symbolically linking /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/resource/NavigationAndPlanning -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/ament_index/resource_index/packages
+[1.175s] symbolically linking /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/package.xml -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/NavigationAndPlanning
+[1.260s] Invoked command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning' returned '0': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build --no-deps symlink_data

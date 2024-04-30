@@ -1,0 +1,36 @@
+[0.846s] Invoking command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/build
+[1.026s] running develop
+[1.120s] Removing /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/lib/python3.10/site-packages/Localisation.egg-link (link to .)
+[1.151s] Invoked command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation' returned '0': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/build
+[1.153s] Invoking command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Localisation': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Localisation build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/install.log --single-version-externally-managed install_data --force
+[1.307s] running egg_info
+[1.307s] writing ../../build/Localisation/Localisation.egg-info/PKG-INFO
+[1.307s] writing dependency_links to ../../build/Localisation/Localisation.egg-info/dependency_links.txt
+[1.307s] writing entry points to ../../build/Localisation/Localisation.egg-info/entry_points.txt
+[1.308s] writing requirements to ../../build/Localisation/Localisation.egg-info/requires.txt
+[1.308s] writing top-level names to ../../build/Localisation/Localisation.egg-info/top_level.txt
+[1.309s] reading manifest file '../../build/Localisation/Localisation.egg-info/SOURCES.txt'
+[1.309s] writing manifest file '../../build/Localisation/Localisation.egg-info/SOURCES.txt'
+[1.309s] running build
+[1.309s] running build_py
+[1.309s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/build
+[1.310s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/build/lib
+[1.310s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/build/lib/Localisation
+[1.310s] copying Localisation/parse_odom.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/build/lib/Localisation
+[1.310s] copying Localisation/__init__.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/build/lib/Localisation
+[1.310s] running install
+[1.310s] running install_lib
+[1.310s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/lib/python3.10/site-packages/Localisation
+[1.310s] copying /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/build/lib/Localisation/parse_odom.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/lib/python3.10/site-packages/Localisation
+[1.310s] copying /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/build/lib/Localisation/__init__.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/lib/python3.10/site-packages/Localisation
+[1.311s] byte-compiling /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/lib/python3.10/site-packages/Localisation/parse_odom.py to parse_odom.cpython-310.pyc
+[1.311s] byte-compiling /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/lib/python3.10/site-packages/Localisation/__init__.py to __init__.cpython-310.pyc
+[1.311s] running install_data
+[1.311s] copying resource/Localisation -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/share/ament_index/resource_index/packages
+[1.311s] copying package.xml -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/share/Localisation
+[1.311s] running install_egg_info
+[1.312s] Copying ../../build/Localisation/Localisation.egg-info to /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/lib/python3.10/site-packages/Localisation-0.0.0-py3.10.egg-info
+[1.313s] running install_scripts
+[1.329s] Installing parse_odom script to /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/lib/Localisation
+[1.329s] writing list of installed files to '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/install.log'
+[1.353s] Invoked command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Localisation' returned '0': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Localisation build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/install.log --single-version-externally-managed install_data --force

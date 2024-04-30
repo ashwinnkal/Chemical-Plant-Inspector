@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/Perception/Perception.egg-info/PKG-INFO
+../../build/Perception/Perception.egg-info/SOURCES.txt
+../../build/Perception/Perception.egg-info/dependency_links.txt
+../../build/Perception/Perception.egg-info/entry_points.txt
+../../build/Perception/Perception.egg-info/requires.txt
+../../build/Perception/Perception.egg-info/top_level.txt
+../../build/Perception/Perception.egg-info/zip-safe
+Perception/__init__.py
+Perception/parse_camera.py
+Perception/parse_lidar.py
+resource/Perception
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

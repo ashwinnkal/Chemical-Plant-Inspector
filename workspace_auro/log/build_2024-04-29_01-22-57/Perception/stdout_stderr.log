@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating Perception.egg-info
+writing Perception.egg-info/PKG-INFO
+writing dependency_links to Perception.egg-info/dependency_links.txt
+writing entry points to Perception.egg-info/entry_points.txt
+writing requirements to Perception.egg-info/requires.txt
+writing top-level names to Perception.egg-info/top_level.txt
+writing manifest file 'Perception.egg-info/SOURCES.txt'
+reading manifest file 'Perception.egg-info/SOURCES.txt'
+writing manifest file 'Perception.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception.egg-link (link to .)
+Installing parse_lidar script to /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/Perception
+
+Installed /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception
+running symlink_data
+creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/ament_index
+creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/ament_index/resource_index
+creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/ament_index/resource_index/packages
+symbolically linking /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/resource/Perception -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/ament_index/resource_index/packages
+symbolically linking /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/package.xml -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/Perception

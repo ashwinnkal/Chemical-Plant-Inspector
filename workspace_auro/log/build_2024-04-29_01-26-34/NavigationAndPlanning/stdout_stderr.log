@@ -1,0 +1,40 @@
+running develop
+Removing /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages/NavigationAndPlanning.egg-link (link to .)
+running egg_info
+writing ../../build/NavigationAndPlanning/NavigationAndPlanning.egg-info/PKG-INFO
+writing dependency_links to ../../build/NavigationAndPlanning/NavigationAndPlanning.egg-info/dependency_links.txt
+writing entry points to ../../build/NavigationAndPlanning/NavigationAndPlanning.egg-info/entry_points.txt
+writing requirements to ../../build/NavigationAndPlanning/NavigationAndPlanning.egg-info/requires.txt
+writing top-level names to ../../build/NavigationAndPlanning/NavigationAndPlanning.egg-info/top_level.txt
+reading manifest file '../../build/NavigationAndPlanning/NavigationAndPlanning.egg-info/SOURCES.txt'
+writing manifest file '../../build/NavigationAndPlanning/NavigationAndPlanning.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build
+creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build/lib
+creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build/lib/NavigationAndPlanning
+copying NavigationAndPlanning/mapping.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build/lib/NavigationAndPlanning
+copying NavigationAndPlanning/listener.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build/lib/NavigationAndPlanning
+copying NavigationAndPlanning/__init__.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build/lib/NavigationAndPlanning
+copying NavigationAndPlanning/control.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build/lib/NavigationAndPlanning
+copying NavigationAndPlanning/follow_waypoints.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build/lib/NavigationAndPlanning
+running install
+running install_lib
+creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages/NavigationAndPlanning
+copying /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build/lib/NavigationAndPlanning/mapping.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages/NavigationAndPlanning
+copying /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build/lib/NavigationAndPlanning/listener.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages/NavigationAndPlanning
+copying /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build/lib/NavigationAndPlanning/__init__.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages/NavigationAndPlanning
+copying /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build/lib/NavigationAndPlanning/control.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages/NavigationAndPlanning
+copying /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build/lib/NavigationAndPlanning/follow_waypoints.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages/NavigationAndPlanning
+byte-compiling /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages/NavigationAndPlanning/mapping.py to mapping.cpython-310.pyc
+byte-compiling /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages/NavigationAndPlanning/listener.py to listener.cpython-310.pyc
+byte-compiling /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages/NavigationAndPlanning/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages/NavigationAndPlanning/control.py to control.cpython-310.pyc
+byte-compiling /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages/NavigationAndPlanning/follow_waypoints.py to follow_waypoints.cpython-310.pyc
+running install_data
+copying resource/NavigationAndPlanning -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/ament_index/resource_index/packages
+copying package.xml -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/NavigationAndPlanning
+running install_egg_info
+Copying ../../build/NavigationAndPlanning/NavigationAndPlanning.egg-info to /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages/NavigationAndPlanning-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/install.log'

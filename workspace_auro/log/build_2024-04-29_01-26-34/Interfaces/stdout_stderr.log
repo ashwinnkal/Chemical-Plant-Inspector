@@ -1,0 +1,28 @@
+running develop
+Removing /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/python3.10/site-packages/Interfaces.egg-link (link to .)
+running egg_info
+writing ../../build/Interfaces/Interfaces.egg-info/PKG-INFO
+writing dependency_links to ../../build/Interfaces/Interfaces.egg-info/dependency_links.txt
+writing entry points to ../../build/Interfaces/Interfaces.egg-info/entry_points.txt
+writing requirements to ../../build/Interfaces/Interfaces.egg-info/requires.txt
+writing top-level names to ../../build/Interfaces/Interfaces.egg-info/top_level.txt
+reading manifest file '../../build/Interfaces/Interfaces.egg-info/SOURCES.txt'
+writing manifest file '../../build/Interfaces/Interfaces.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/build
+creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/build/lib
+creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/build/lib/Interfaces
+copying Interfaces/__init__.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/build/lib/Interfaces
+running install
+running install_lib
+creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/python3.10/site-packages/Interfaces
+copying /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/build/lib/Interfaces/__init__.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/python3.10/site-packages/Interfaces
+byte-compiling /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/python3.10/site-packages/Interfaces/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/Interfaces -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/share/ament_index/resource_index/packages
+copying package.xml -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/share/Interfaces
+running install_egg_info
+Copying ../../build/Interfaces/Interfaces.egg-info to /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/python3.10/site-packages/Interfaces-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/install.log'

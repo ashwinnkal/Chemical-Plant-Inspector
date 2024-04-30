@@ -1,0 +1,36 @@
+[0.366s] Invoking command in '/home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/src/robot_patrol': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_patrol build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/install.log --single-version-externally-managed install_data
+[0.519s] running egg_info
+[0.520s] creating ../../build/robot_patrol/robot_patrol.egg-info
+[0.520s] writing ../../build/robot_patrol/robot_patrol.egg-info/PKG-INFO
+[0.520s] writing dependency_links to ../../build/robot_patrol/robot_patrol.egg-info/dependency_links.txt
+[0.520s] writing entry points to ../../build/robot_patrol/robot_patrol.egg-info/entry_points.txt
+[0.520s] writing requirements to ../../build/robot_patrol/robot_patrol.egg-info/requires.txt
+[0.520s] writing top-level names to ../../build/robot_patrol/robot_patrol.egg-info/top_level.txt
+[0.520s] writing manifest file '../../build/robot_patrol/robot_patrol.egg-info/SOURCES.txt'
+[0.521s] reading manifest file '../../build/robot_patrol/robot_patrol.egg-info/SOURCES.txt'
+[0.521s] writing manifest file '../../build/robot_patrol/robot_patrol.egg-info/SOURCES.txt'
+[0.521s] running build
+[0.521s] running build_py
+[0.521s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/build
+[0.521s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/build/lib
+[0.521s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/build/lib/robot_patrol
+[0.521s] copying robot_patrol/__init__.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/build/lib/robot_patrol
+[0.521s] copying robot_patrol/house_patrol.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/build/lib/robot_patrol
+[0.522s] running install
+[0.522s] running install_lib
+[0.522s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/lib/python3.10/site-packages/robot_patrol
+[0.522s] copying /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/build/lib/robot_patrol/__init__.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/lib/python3.10/site-packages/robot_patrol
+[0.522s] copying /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/build/lib/robot_patrol/house_patrol.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/lib/python3.10/site-packages/robot_patrol
+[0.523s] byte-compiling /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/lib/python3.10/site-packages/robot_patrol/__init__.py to __init__.cpython-310.pyc
+[0.523s] byte-compiling /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/lib/python3.10/site-packages/robot_patrol/house_patrol.py to house_patrol.cpython-310.pyc
+[0.523s] running install_data
+[0.523s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/share/ament_index
+[0.523s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/share/ament_index/resource_index
+[0.523s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/share/ament_index/resource_index/packages
+[0.523s] copying resource/robot_patrol -> /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/share/ament_index/resource_index/packages
+[0.523s] copying package.xml -> /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/share/robot_patrol
+[0.523s] running install_egg_info
+[0.525s] Copying ../../build/robot_patrol/robot_patrol.egg-info to /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/lib/python3.10/site-packages/robot_patrol-0.0.0-py3.10.egg-info
+[0.525s] running install_scripts
+[0.539s] Installing robot_patrol script to /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/lib/robot_patrol
+[0.539s] writing list of installed files to '/home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/install.log'

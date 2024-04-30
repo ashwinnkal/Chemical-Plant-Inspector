@@ -21,7 +21,5 @@ setup(
     entry_points={
         'console_scripts': [
             'parse_odom = Perception.parse_odom:main'],
-
-        ],
     },
 )

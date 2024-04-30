@@ -1,0 +1,30 @@
+running develop
+Removing /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception.egg-link (link to .)
+running egg_info
+writing ../../build/Perception/Perception.egg-info/PKG-INFO
+writing dependency_links to ../../build/Perception/Perception.egg-info/dependency_links.txt
+writing entry points to ../../build/Perception/Perception.egg-info/entry_points.txt
+writing requirements to ../../build/Perception/Perception.egg-info/requires.txt
+writing top-level names to ../../build/Perception/Perception.egg-info/top_level.txt
+reading manifest file '../../build/Perception/Perception.egg-info/SOURCES.txt'
+writing manifest file '../../build/Perception/Perception.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception
+copying /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/build/lib/Perception/parse_lidar.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception
+copying /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/build/lib/Perception/__init__.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception
+copying /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/build/lib/Perception/parse_camera.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception
+byte-compiling /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception/parse_lidar.py to parse_lidar.cpython-310.pyc
+byte-compiling /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception/parse_camera.py to parse_camera.cpython-310.pyc
+running install_data
+copying resource/Perception -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/ament_index/resource_index/packages
+copying package.xml -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/Perception
+running install_egg_info
+Copying ../../build/Perception/Perception.egg-info to /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception-0.0.0-py3.10.egg-info
+running install_scripts
+Installing parse_camera script to /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/Perception
+Installing parse_lidar script to /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/Perception
+writing list of installed files to '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/install.log'

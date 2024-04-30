@@ -1,0 +1,32 @@
+[0.846s] Invoking command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/build
+[1.015s] running develop
+[1.108s] Removing /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/python3.10/site-packages/Interfaces.egg-link (link to .)
+[1.138s] Invoked command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces' returned '0': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/build
+[1.140s] Invoking command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Interfaces': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Interfaces build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/install.log --single-version-externally-managed install_data --force
+[1.295s] running egg_info
+[1.295s] writing ../../build/Interfaces/Interfaces.egg-info/PKG-INFO
+[1.296s] writing dependency_links to ../../build/Interfaces/Interfaces.egg-info/dependency_links.txt
+[1.296s] writing entry points to ../../build/Interfaces/Interfaces.egg-info/entry_points.txt
+[1.296s] writing requirements to ../../build/Interfaces/Interfaces.egg-info/requires.txt
+[1.296s] writing top-level names to ../../build/Interfaces/Interfaces.egg-info/top_level.txt
+[1.297s] reading manifest file '../../build/Interfaces/Interfaces.egg-info/SOURCES.txt'
+[1.298s] writing manifest file '../../build/Interfaces/Interfaces.egg-info/SOURCES.txt'
+[1.298s] running build
+[1.298s] running build_py
+[1.298s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/build
+[1.298s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/build/lib
+[1.298s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/build/lib/Interfaces
+[1.298s] copying Interfaces/__init__.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/build/lib/Interfaces
+[1.298s] running install
+[1.298s] running install_lib
+[1.298s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/python3.10/site-packages/Interfaces
+[1.299s] copying /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/build/lib/Interfaces/__init__.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/python3.10/site-packages/Interfaces
+[1.299s] byte-compiling /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/python3.10/site-packages/Interfaces/__init__.py to __init__.cpython-310.pyc
+[1.299s] running install_data
+[1.299s] copying resource/Interfaces -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/share/ament_index/resource_index/packages
+[1.299s] copying package.xml -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/share/Interfaces
+[1.299s] running install_egg_info
+[1.301s] Copying ../../build/Interfaces/Interfaces.egg-info to /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/python3.10/site-packages/Interfaces-0.0.0-py3.10.egg-info
+[1.305s] running install_scripts
+[1.319s] writing list of installed files to '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/install.log'
+[1.341s] Invoked command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Interfaces' returned '0': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Interfaces build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/install.log --single-version-externally-managed install_data --force

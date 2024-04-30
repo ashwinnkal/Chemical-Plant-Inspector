@@ -1,0 +1,315 @@
+[0.054s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.054s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7063154cd8d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7063154cd210>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7063154cd210>>)
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.146s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ros'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'cmake'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extension 'ros'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extensions ['cmake', 'python']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extension 'cmake'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extension 'python'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extensions ['python_setup_py']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extension 'python_setup_py'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg/build) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg/build) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg/build) ignored
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg/install) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg/install) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg/install) ignored
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg/log) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg/log) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(msg/log) ignored
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interfaces) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interfaces) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interfaces) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interfaces) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interfaces) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interfaces) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interfaces) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interfaces) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Interfaces' with type 'ros.ament_python' and name 'Interfaces'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/Localisation) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/Localisation) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/Localisation) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/Localisation) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/Localisation) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/Localisation) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/Localisation) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/Localisation) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/Localisation) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Localisation' with type 'ros.ament_python' and name 'Localisation'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/NavigationAndPlanning) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/NavigationAndPlanning) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/NavigationAndPlanning) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/NavigationAndPlanning) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/NavigationAndPlanning) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/NavigationAndPlanning) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/NavigationAndPlanning) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/NavigationAndPlanning) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/NavigationAndPlanning) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/NavigationAndPlanning' with type 'ros.ament_python' and name 'NavigationAndPlanning'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/Perception) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/Perception) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/Perception) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/Perception) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/Perception) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/Perception) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/Perception) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/Perception) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/Perception) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Perception' with type 'ros.ament_python' and name 'Perception'
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.173s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install
+[0.174s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/zain13/ros2_ws/install
+[0.174s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 293 installed packages in /opt/ros/humble
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Interfaces' build argument 'cmake_args' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Interfaces' build argument 'cmake_target' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.194s] DEBUG:colcon.colcon_core.verb:Building package 'Interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces', 'merge_install': False, 'path': '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Localisation' build argument 'cmake_args' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Localisation' build argument 'cmake_target' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Localisation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Localisation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Localisation' build argument 'cmake_clean_first' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Localisation' build argument 'cmake_force_configure' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Localisation' build argument 'ament_cmake_args' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Localisation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'Localisation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.194s] DEBUG:colcon.colcon_core.verb:Building package 'Localisation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation', 'merge_install': False, 'path': '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Localisation', 'symlink_install': False, 'test_result_base': None}
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'NavigationAndPlanning' build argument 'cmake_args' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'NavigationAndPlanning' build argument 'cmake_target' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'NavigationAndPlanning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'NavigationAndPlanning' build argument 'cmake_clean_cache' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'NavigationAndPlanning' build argument 'cmake_clean_first' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'NavigationAndPlanning' build argument 'cmake_force_configure' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'NavigationAndPlanning' build argument 'ament_cmake_args' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'NavigationAndPlanning' build argument 'catkin_cmake_args' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'NavigationAndPlanning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.194s] DEBUG:colcon.colcon_core.verb:Building package 'NavigationAndPlanning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning', 'merge_install': False, 'path': '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/NavigationAndPlanning', 'symlink_install': False, 'test_result_base': None}
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'Perception' build argument 'cmake_args' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'Perception' build argument 'cmake_target' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'Perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'Perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'Perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'Perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'Perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'Perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'Perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.195s] DEBUG:colcon.colcon_core.verb:Building package 'Perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception', 'merge_install': False, 'path': '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Perception', 'symlink_install': False, 'test_result_base': None}
+[0.195s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.196s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.196s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Interfaces' with build type 'ament_python'
+[0.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('Interfaces', 'ament_prefix_path')
+[0.197s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/share/Interfaces/hook/ament_prefix_path.ps1'
+[0.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/share/Interfaces/hook/ament_prefix_path.dsv'
+[0.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/share/Interfaces/hook/ament_prefix_path.sh'
+[0.198s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.198s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.200s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Localisation' with build type 'ament_python'
+[0.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('Localisation', 'ament_prefix_path')
+[0.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/share/Localisation/hook/ament_prefix_path.ps1'
+[0.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/share/Localisation/hook/ament_prefix_path.dsv'
+[0.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/share/Localisation/hook/ament_prefix_path.sh'
+[0.201s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.201s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.203s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/NavigationAndPlanning' with build type 'ament_python'
+[0.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('NavigationAndPlanning', 'ament_prefix_path')
+[0.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/NavigationAndPlanning/hook/ament_prefix_path.ps1'
+[0.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/NavigationAndPlanning/hook/ament_prefix_path.dsv'
+[0.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/NavigationAndPlanning/hook/ament_prefix_path.sh'
+[0.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.209s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Perception' with build type 'ament_python'
+[0.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('Perception', 'ament_prefix_path')
+[0.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/Perception/hook/ament_prefix_path.ps1'
+[0.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/Perception/hook/ament_prefix_path.dsv'
+[0.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/Perception/hook/ament_prefix_path.sh'
+[0.210s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.210s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.356s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Interfaces'
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.497s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Localisation'
+[0.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.642s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/NavigationAndPlanning'
+[0.642s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.642s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.788s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Perception'
+[0.788s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.788s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Interfaces': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Interfaces build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/install.log --single-version-externally-managed install_data
+[1.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Localisation': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Localisation build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/install.log --single-version-externally-managed install_data
+[1.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/NavigationAndPlanning': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/NavigationAndPlanning build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/install.log --single-version-externally-managed install_data
+[1.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Perception': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Perception build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/install.log --single-version-externally-managed install_data
+[1.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Interfaces' returned '0': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Interfaces build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Interfaces/install.log --single-version-externally-managed install_data
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces' for CMake module files
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces' for CMake config files
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/bin'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/pkgconfig/Interfaces.pc'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/lib/python3.10/site-packages'
+[1.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('Interfaces', 'pythonpath')
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/share/Interfaces/hook/pythonpath.ps1'
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/share/Interfaces/hook/pythonpath.dsv'
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/share/Interfaces/hook/pythonpath.sh'
+[1.234s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/bin'
+[1.234s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Interfaces)
+[1.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/share/Interfaces/package.ps1'
+[1.234s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/share/Interfaces/package.dsv'
+[1.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/share/Interfaces/package.sh'
+[1.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/share/Interfaces/package.bash'
+[1.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/share/Interfaces/package.zsh'
+[1.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Interfaces/share/colcon-core/packages/Interfaces)
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation' for CMake module files
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation' for CMake config files
+[1.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Localisation' returned '0': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Localisation build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Localisation/install.log --single-version-externally-managed install_data
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/lib'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/bin'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/lib/pkgconfig/Localisation.pc'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/lib/python3.10/site-packages'
+[1.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('Localisation', 'pythonpath')
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/share/Localisation/hook/pythonpath.ps1'
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/share/Localisation/hook/pythonpath.dsv'
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/share/Localisation/hook/pythonpath.sh'
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/bin'
+[1.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Localisation)
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/share/Localisation/package.ps1'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/share/Localisation/package.dsv'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/share/Localisation/package.sh'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/share/Localisation/package.bash'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/share/Localisation/package.zsh'
+[1.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Localisation/share/colcon-core/packages/Localisation)
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception' for CMake module files
+[1.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Perception' returned '0': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Perception build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/install.log --single-version-externally-managed install_data
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception' for CMake config files
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/bin'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/pkgconfig/Perception.pc'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages'
+[1.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('Perception', 'pythonpath')
+[1.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/Perception/hook/pythonpath.ps1'
+[1.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/Perception/hook/pythonpath.dsv'
+[1.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/Perception/hook/pythonpath.sh'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/bin'
+[1.242s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Perception)
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/Perception/package.ps1'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/Perception/package.dsv'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/Perception/package.sh'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/Perception/package.bash'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/Perception/package.zsh'
+[1.242s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/colcon-core/packages/Perception)
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning' for CMake module files
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning' for CMake config files
+[1.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/NavigationAndPlanning' returned '0': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/NavigationAndPlanning build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/NavigationAndPlanning/install.log --single-version-externally-managed install_data
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/bin'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/pkgconfig/NavigationAndPlanning.pc'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/lib/python3.10/site-packages'
+[1.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('NavigationAndPlanning', 'pythonpath')
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/NavigationAndPlanning/hook/pythonpath.ps1'
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/NavigationAndPlanning/hook/pythonpath.dsv'
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/NavigationAndPlanning/hook/pythonpath.sh'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/bin'
+[1.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(NavigationAndPlanning)
+[1.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/NavigationAndPlanning/package.ps1'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/NavigationAndPlanning/package.dsv'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/NavigationAndPlanning/package.sh'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/NavigationAndPlanning/package.bash'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/NavigationAndPlanning/package.zsh'
+[1.245s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/NavigationAndPlanning/share/colcon-core/packages/NavigationAndPlanning)
+[1.245s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.245s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.245s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.245s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.249s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.249s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.249s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.256s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.256s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/local_setup.ps1'
+[1.257s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/_local_setup_util_ps1.py'
+[1.257s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/setup.ps1'
+[1.258s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/local_setup.sh'
+[1.258s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/_local_setup_util_sh.py'
+[1.259s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/setup.sh'
+[1.259s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/local_setup.bash'
+[1.259s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/setup.bash'
+[1.260s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/local_setup.zsh'
+[1.260s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/setup.zsh'

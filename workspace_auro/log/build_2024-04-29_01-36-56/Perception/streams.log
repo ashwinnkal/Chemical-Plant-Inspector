@@ -1,0 +1,34 @@
+[0.893s] Invoking command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/build
+[1.089s] running develop
+[1.197s] Removing /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception.egg-link (link to .)
+[1.226s] Invoked command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception' returned '0': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/build
+[1.227s] Invoking command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Perception': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Perception build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/install.log --single-version-externally-managed install_data --force
+[1.415s] running egg_info
+[1.415s] writing ../../build/Perception/Perception.egg-info/PKG-INFO
+[1.416s] writing dependency_links to ../../build/Perception/Perception.egg-info/dependency_links.txt
+[1.416s] writing entry points to ../../build/Perception/Perception.egg-info/entry_points.txt
+[1.416s] writing requirements to ../../build/Perception/Perception.egg-info/requires.txt
+[1.416s] writing top-level names to ../../build/Perception/Perception.egg-info/top_level.txt
+[1.417s] reading manifest file '../../build/Perception/Perception.egg-info/SOURCES.txt'
+[1.418s] writing manifest file '../../build/Perception/Perception.egg-info/SOURCES.txt'
+[1.418s] running build
+[1.418s] running build_py
+[1.418s] running install
+[1.418s] running install_lib
+[1.419s] creating /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception
+[1.419s] copying /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/build/lib/Perception/parse_lidar.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception
+[1.419s] copying /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/build/lib/Perception/__init__.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception
+[1.419s] copying /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/build/lib/Perception/parse_camera.py -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception
+[1.421s] byte-compiling /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception/parse_lidar.py to parse_lidar.cpython-310.pyc
+[1.421s] byte-compiling /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception/__init__.py to __init__.cpython-310.pyc
+[1.421s] byte-compiling /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception/parse_camera.py to parse_camera.cpython-310.pyc
+[1.422s] running install_data
+[1.422s] copying resource/Perception -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/ament_index/resource_index/packages
+[1.422s] copying package.xml -> /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/share/Perception
+[1.422s] running install_egg_info
+[1.425s] Copying ../../build/Perception/Perception.egg-info to /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages/Perception-0.0.0-py3.10.egg-info
+[1.425s] running install_scripts
+[1.442s] Installing parse_camera script to /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/Perception
+[1.442s] Installing parse_lidar script to /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/Perception
+[1.442s] writing list of installed files to '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/install.log'
+[1.469s] Invoked command in '/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/src/Perception' returned '0': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/install/Perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Perception build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/workspace_auro/build/Perception/install.log --single-version-externally-managed install_data --force

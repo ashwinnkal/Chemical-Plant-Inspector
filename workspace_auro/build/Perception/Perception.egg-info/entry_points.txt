@@ -1,0 +1,4 @@
+[console_scripts]
+parse_camera = Perception.parse_camera:main
+parse_lidar = Perception.parse_lidar:main
+
