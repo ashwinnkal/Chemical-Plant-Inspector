@@ -1,0 +1,21 @@
+[0.363s] Invoking command in '/home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/src/robot_patrol': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_patrol build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/install.log --single-version-externally-managed install_data
+[0.504s] running egg_info
+[0.505s] writing ../../build/robot_patrol/robot_patrol.egg-info/PKG-INFO
+[0.505s] writing dependency_links to ../../build/robot_patrol/robot_patrol.egg-info/dependency_links.txt
+[0.505s] writing entry points to ../../build/robot_patrol/robot_patrol.egg-info/entry_points.txt
+[0.505s] writing requirements to ../../build/robot_patrol/robot_patrol.egg-info/requires.txt
+[0.505s] writing top-level names to ../../build/robot_patrol/robot_patrol.egg-info/top_level.txt
+[0.506s] reading manifest file '../../build/robot_patrol/robot_patrol.egg-info/SOURCES.txt'
+[0.506s] writing manifest file '../../build/robot_patrol/robot_patrol.egg-info/SOURCES.txt'
+[0.506s] running build
+[0.506s] running build_py
+[0.506s] running install
+[0.506s] running install_lib
+[0.507s] running install_data
+[0.507s] running install_egg_info
+[0.508s] removing '/home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/lib/python3.10/site-packages/robot_patrol-0.0.0-py3.10.egg-info' (and everything under it)
+[0.508s] Copying ../../build/robot_patrol/robot_patrol.egg-info to /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/lib/python3.10/site-packages/robot_patrol-0.0.0-py3.10.egg-info
+[0.509s] running install_scripts
+[0.521s] Installing robot_patrol script to /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/lib/robot_patrol
+[0.521s] writing list of installed files to '/home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/install.log'
+[0.538s] Invoked command in '/home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/src/robot_patrol' returned '0': PYTHONPATH=/home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/prefix_override:/home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/install/robot_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_patrol build --build-base /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/build install --record /home/zain13/Desktop/Chemical-Plant-Inspector/SLAM/build/robot_patrol/install.log --single-version-externally-managed install_data

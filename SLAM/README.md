@@ -3,7 +3,7 @@ Makesure you install these
   
   **Slam_toolbox** - [Github](https://github.com/SteveMacenski/slam_toolbox)
 
-  To install, do:
+  To install, do: 
   1. "sudo apt install ros-humble-twist-mux"
   2. "sudo apt install ros-humble-navigation2" to get the "from nav2_simple_commander.robot_navigator import BasicNavigator" working, on the website, https://navigation.ros.org/getting_started/index.html
       - But this is only in simulation. To get the actual robot to do this, we use the below...
@@ -11,6 +11,9 @@ Makesure you install these
   4. "pip3 install transforms3d"
   5. "sudo apt install ros-humble-gazebo-ros-pkgs"
       - This is to follow the README.md file in the "SLAM" folder
+   6. "sudo apt install ros-humble-robot-localization"
+      - The simulation's in the "SLAM" folder, depend on this
+   7. "sudo apt install ros-humble-nav2-bringup"
 
 3. **Build the workspace:**
    ```sh
